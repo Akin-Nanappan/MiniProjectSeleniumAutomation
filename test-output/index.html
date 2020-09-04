@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 12 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Hackathon_Zigwheels_com">
+              <span class="suite-name border-failed">Hackathon Zigwheels.com</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Hackathon_Zigwheels_com">
+                    <span>C:\JAVA\Java_Programs\AkinPOMPractice\testngAllRun.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Hackathon_Zigwheels_com">
+                    <span class="test-stats">6 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Hackathon_Zigwheels_com">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Hackathon_Zigwheels_com">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Hackathon_Zigwheels_com">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Hackathon_Zigwheels_com">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Hackathon_Zigwheels_com">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 12 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Hackathon_Zigwheels_com" class="hide-methods failed suite-Hackathon_Zigwheels_com"> (hide)</a> <!-- hide-methods failed suite-Hackathon_Zigwheels_com -->
+                      <a href="#" panel-name="suite-Hackathon_Zigwheels_com" class="show-methods failed suite-Hackathon_Zigwheels_com"> (show)</a> <!-- show-methods failed suite-Hackathon_Zigwheels_com -->
+                    </span>
+                    <div class="method-list-content failed suite-Hackathon_Zigwheels_com">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon_Zigwheels_com" title="TestCases.InvalidLoginTest" hash-for-method="invalidmail">invalidmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon_Zigwheels_com" title="TestCases.InvalidLoginTest" hash-for-method="invalidphn">invalidphn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon_Zigwheels_com" title="TestCases.InvalidLoginTest" hash-for-method="nullmail">nullmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon_Zigwheels_com" title="TestCases.PopularModelsInChennai" hash-for-method="popularModelsTestUsingMinMax(Chrome)">popularModelsTestUsingMinMax(Chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon_Zigwheels_com" title="TestCases.PopularModelsInChennai" hash-for-method="popularModelsTestUsingMinMax(Mozila)">popularModelsTestUsingMinMax(Mozila)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon_Zigwheels_com" title="TestCases.PopularModelsInChennai" hash-for-method="popularModelsTestUsingRadioButton(Chrome)">popularModelsTestUsingRadioButton(Chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon_Zigwheels_com" title="TestCases.InvalidLoginTest" hash-for-method="v_mail_inv_pswd">v_mail_inv_pswd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon_Zigwheels_com" title="TestCases.InvalidLoginTest" hash-for-method="v_mail_inv_pswd">v_mail_inv_pswd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon_Zigwheels_com" title="TestCases.InvalidLoginTest" hash-for-method="v_mail_null_pswd">v_mail_null_pswd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon_Zigwheels_com" title="TestCases.InvalidLoginTest" hash-for-method="v_mail_null_pswd">v_mail_null_pswd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon_Zigwheels_com" title="TestCases.InvalidLoginTest" hash-for-method="v_phn_inv_pswd">v_phn_inv_pswd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon_Zigwheels_com" title="TestCases.InvalidLoginTest" hash-for-method="v_phn_inv_pswd">v_phn_inv_pswd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Hackathon_Zigwheels_com -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Hackathon_Zigwheels_com" class="hide-methods passed suite-Hackathon_Zigwheels_com"> (hide)</a> <!-- hide-methods passed suite-Hackathon_Zigwheels_com -->
+                      <a href="#" panel-name="suite-Hackathon_Zigwheels_com" class="show-methods passed suite-Hackathon_Zigwheels_com"> (show)</a> <!-- show-methods passed suite-Hackathon_Zigwheels_com -->
+                    </span>
+                    <div class="method-list-content passed suite-Hackathon_Zigwheels_com">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon_Zigwheels_com" title="TestCases.InvalidLoginTest" hash-for-method="invalidmail">invalidmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon_Zigwheels_com" title="TestCases.InvalidLoginTest" hash-for-method="invalidphn">invalidphn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon_Zigwheels_com" title="TestCases.InvalidLoginTest" hash-for-method="nullmail">nullmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon_Zigwheels_com" title="TestCases.PopularModelsInChennai" hash-for-method="popularModelsTestUsingRadioButton(Mozila)">popularModelsTestUsingRadioButton(Mozila)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon_Zigwheels_com" title="TestCases.InvalidLoginTest" hash-for-method="profile_btn_and_google">profile_btn_and_google</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon_Zigwheels_com" title="TestCases.InvalidLoginTest" hash-for-method="profile_btn_and_google">profile_btn_and_google</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon_Zigwheels_com" title="TestCases.UpcomingHondaBikes" hash-for-method="upcomingHondaBikesTest(Chrome)">upcomingHondaBikesTest(Chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hackathon_Zigwheels_com" title="TestCases.UpcomingHondaBikes" hash-for-method="upcomingHondaBikesTest(Mozila)">upcomingHondaBikesTest(Mozila)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Hackathon_Zigwheels_com -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Hackathon_Zigwheels_com" class="panel Hackathon_Zigwheels_com">
+          <div class="suite-Hackathon_Zigwheels_com-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCases.PopularModelsInChennai</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="popularModelsTestUsingMinMax(Chrome)">
+                  </a> <!-- popularModelsTestUsingMinMax(Chrome) -->
+                  <span class="method-name">popularModelsTestUsingMinMax</span>
+                  <span class="parameters">(Chrome)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DOREMON&apos;, ip: &apos;56.97.195.137&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\AKIN\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5e8c2bb0dd2932f16817c997e1fdc2a2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at PageClasses.UsedCarsInChennaiPage.extractCarData(UsedCarsInChennaiPage.java:58)
+	at TestCases.PopularModelsInChennai.popularModelsTestUsingMinMax(PopularModelsInChennai.java:30)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="popularModelsTestUsingMinMax(Mozila)">
+                  </a> <!-- popularModelsTestUsingMinMax(Mozila) -->
+                  <span class="method-name">popularModelsTestUsingMinMax</span>
+                  <span class="parameters">(Mozila)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DOREMON&apos;, ip: &apos;56.97.195.137&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10920, moz:profile: C:\Users\AKIN\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 72380300-a4a5-4632-b46d-70059d4262be
+*** Element info: {Using=xpath, value=//a[@data-track-label=&apos;Car-name&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at PageClasses.UsedCarsInChennaiPage.extractCarData(UsedCarsInChennaiPage.java:59)
+	at TestCases.PopularModelsInChennai.popularModelsTestUsingMinMax(PopularModelsInChennai.java:30)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="popularModelsTestUsingRadioButton(Chrome)">
+                  </a> <!-- popularModelsTestUsingRadioButton(Chrome) -->
+                  <span class="method-name">popularModelsTestUsingRadioButton</span>
+                  <span class="parameters">(Chrome)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input id=&quot;price5&quot; class=&quot;priceCheckbox pRadio&quot; value=&quot;2000000-1000000000&quot; onclick=&quot;searchData(&apos;byPrice&apos;,this.value,&apos;Over 20 lakh&apos;);&quot; data-track-action=&quot;filters&quot; data-track-label=&quot;select-price-over-20-lac&quot; type=&quot;radio&quot;&gt; is not clickable at point (74, 542). Other element would receive the click: &lt;div class=&quot;usedLoader&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=84.0.4147.135)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DOREMON&apos;, ip: &apos;56.97.195.137&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\AKIN\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: afe1bb7e64687fc45e45205fee48220e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at PageClasses.UsedCarsInChennaiPage.priceFromRadioButton(UsedCarsInChennaiPage.java:45)
+	at TestCases.PopularModelsInChennai.popularModelsTestUsingRadioButton(PopularModelsInChennai.java:46)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Hackathon_Zigwheels_com-class-failed -->
+          <div class="suite-Hackathon_Zigwheels_com-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCases.InvalidLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidmail">
+                  </a> <!-- invalidmail -->
+                  <span class="method-name">invalidmail</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate an element using id=identifierId
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DOREMON&apos;, ip: &apos;56.97.195.137&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at PageClasses.Pages.email(Pages.java:54)
+	at TestCases.InvalidLoginTest.invalidmail(InvalidLoginTest.java:53)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidphn">
+                  </a> <!-- invalidphn -->
+                  <span class="method-name">invalidphn</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DOREMON&apos;, ip: &apos;56.97.195.137&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\AKIN\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52221}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e00e5114ed8614dab76169e8f1942788
+*** Element info: {Using=id, value=identifierId}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at PageClasses.Pages.emailclear(Pages.java:70)
+	at TestCases.InvalidLoginTest.invalidphn(InvalidLoginTest.java:97)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="nullmail">
+                  </a> <!-- nullmail -->
+                  <span class="method-name">nullmail</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DOREMON&apos;, ip: &apos;56.97.195.137&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\AKIN\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52221}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e00e5114ed8614dab76169e8f1942788
+*** Element info: {Using=id, value=identifierId}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at PageClasses.Pages.emailclear(Pages.java:70)
+	at TestCases.InvalidLoginTest.nullmail(InvalidLoginTest.java:72)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="v_mail_inv_pswd">
+                  </a> <!-- v_mail_inv_pswd -->
+                  <span class="method-name">v_mail_inv_pswd</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DOREMON&apos;, ip: &apos;56.97.195.137&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\AKIN\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52221}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e00e5114ed8614dab76169e8f1942788
+*** Element info: {Using=id, value=identifierId}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at PageClasses.Pages.emailclear(Pages.java:70)
+	at TestCases.InvalidLoginTest.v_mail_inv_pswd(InvalidLoginTest.java:118)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="v_mail_inv_pswd">
+                  </a> <!-- v_mail_inv_pswd -->
+                  <span class="method-name">v_mail_inv_pswd</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@name=&apos;password&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DOREMON&apos;, ip: &apos;56.97.195.137&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 13148, moz:profile: C:\Users\AKIN\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d34e8cfc-65af-417f-b1b6-0b833f511d2c
+*** Element info: {Using=xpath, value=//input[@name=&apos;password&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at PageClasses.Pages.password(Pages.java:62)
+	at TestCases.InvalidLoginTest.v_mail_inv_pswd(InvalidLoginTest.java:122)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="v_mail_null_pswd">
+                  </a> <!-- v_mail_null_pswd -->
+                  <span class="method-name">v_mail_null_pswd</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DOREMON&apos;, ip: &apos;56.97.195.137&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\AKIN\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52221}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e00e5114ed8614dab76169e8f1942788
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:849)
+	at PageClasses.Pages.navigateback(Pages.java:78)
+	at TestCases.InvalidLoginTest.v_mail_null_pswd(InvalidLoginTest.java:172)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="v_mail_null_pswd">
+                  </a> <!-- v_mail_null_pswd -->
+                  <span class="method-name">v_mail_null_pswd</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidElementStateException: Unable to clear element that cannot be edited: &lt;input id=&quot;identifierId&quot; name=&quot;identifierInput&quot; type=&quot;hidden&quot;&gt;
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DOREMON&apos;, ip: &apos;56.97.195.137&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 13148, moz:profile: C:\Users\AKIN\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d34e8cfc-65af-417f-b1b6-0b833f511d2c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at PageClasses.Pages.emailclear(Pages.java:70)
+	at TestCases.InvalidLoginTest.v_mail_null_pswd(InvalidLoginTest.java:173)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="v_phn_inv_pswd">
+                  </a> <!-- v_phn_inv_pswd -->
+                  <span class="method-name">v_phn_inv_pswd</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DOREMON&apos;, ip: &apos;56.97.195.137&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\AKIN\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52221}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e00e5114ed8614dab76169e8f1942788
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:849)
+	at PageClasses.Pages.navigateback(Pages.java:78)
+	at TestCases.InvalidLoginTest.v_phn_inv_pswd(InvalidLoginTest.java:144)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="v_phn_inv_pswd">
+                  </a> <!-- v_phn_inv_pswd -->
+                  <span class="method-name">v_phn_inv_pswd</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@name=&apos;password&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DOREMON&apos;, ip: &apos;56.97.195.137&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 13148, moz:profile: C:\Users\AKIN\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d34e8cfc-65af-417f-b1b6-0b833f511d2c
+*** Element info: {Using=xpath, value=//input[@name=&apos;password&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at PageClasses.Pages.password(Pages.java:62)
+	at TestCases.InvalidLoginTest.v_phn_inv_pswd(InvalidLoginTest.java:150)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Hackathon_Zigwheels_com-class-failed -->
+          <div class="suite-Hackathon_Zigwheels_com-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.PopularModelsInChennai</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="popularModelsTestUsingRadioButton(Mozila)">
+                  </a> <!-- popularModelsTestUsingRadioButton(Mozila) -->
+                  <span class="method-name">popularModelsTestUsingRadioButton</span>
+                  <span class="parameters">(Mozila)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Hackathon_Zigwheels_com-class-passed -->
+          <div class="suite-Hackathon_Zigwheels_com-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.UpcomingHondaBikes</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="upcomingHondaBikesTest(Chrome)">
+                  </a> <!-- upcomingHondaBikesTest(Chrome) -->
+                  <span class="method-name">upcomingHondaBikesTest</span>
+                  <span class="parameters">(Chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="upcomingHondaBikesTest(Mozila)">
+                  </a> <!-- upcomingHondaBikesTest(Mozila) -->
+                  <span class="method-name">upcomingHondaBikesTest</span>
+                  <span class="parameters">(Mozila)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Hackathon_Zigwheels_com-class-passed -->
+          <div class="suite-Hackathon_Zigwheels_com-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.InvalidLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidmail">
+                  </a> <!-- invalidmail -->
+                  <span class="method-name">invalidmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidphn">
+                  </a> <!-- invalidphn -->
+                  <span class="method-name">invalidphn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="nullmail">
+                  </a> <!-- nullmail -->
+                  <span class="method-name">nullmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="profile_btn_and_google">
+                  </a> <!-- profile_btn_and_google -->
+                  <span class="method-name">profile_btn_and_google</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="profile_btn_and_google">
+                  </a> <!-- profile_btn_and_google -->
+                  <span class="method-name">profile_btn_and_google</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Hackathon_Zigwheels_com-class-passed -->
+        </div> <!-- panel Hackathon_Zigwheels_com -->
+        <div panel-name="test-xml-Hackathon_Zigwheels_com" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\JAVA\Java_Programs\AkinPOMPractice\testngAllRun.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Hackathon Zigwheels.com&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Upcoming Honda Bikes&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;regressionTest&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.UpcomingHondaBikes&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Upcoming Honda Bikes --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Popular Models in Used Cars In Chennai&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;regressionTest&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.PopularModelsInChennai&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Popular Models in Used Cars In Chennai --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Invalid Google Login Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;regressionTest&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.InvalidLoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Invalid Google Login Test --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Upcoming Honda Bikes Mozila&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Mozila&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;regressionTest&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.UpcomingHondaBikes&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Upcoming Honda Bikes Mozila --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Popular Models in Used Cars In Chennai Mozila&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Mozila&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;regressionTest&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.PopularModelsInChennai&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Popular Models in Used Cars In Chennai Mozila --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Invalid Google Login Test Mozila&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Mozila&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;regressionTest&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.InvalidLoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Invalid Google Login Test Mozila --&gt;
+&lt;/suite&gt; &lt;!-- Hackathon Zigwheels.com --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Hackathon_Zigwheels_com" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Hackathon Zigwheels.com</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Upcoming Honda Bikes (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Popular Models in Used Cars In Chennai (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Invalid Google Login Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Upcoming Honda Bikes Mozila (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Popular Models in Used Cars In Chennai Mozila (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Invalid Google Login Test Mozila (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Hackathon_Zigwheels_com" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Hackathon Zigwheels.com</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regressionTest</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">invalidmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">invalidphn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">nullmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">popularModelsTestUsingMinMax</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">popularModelsTestUsingRadioButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">profile_btn_and_google</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">upcomingHondaBikesTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">v_mail_inv_pswd</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">v_mail_null_pswd</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">v_phn_inv_pswd</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smokeTest</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">profile_btn_and_google</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Hackathon_Zigwheels_com" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Hackathon Zigwheels.com</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Hackathon_Zigwheels_com');
+function tableData_Hackathon_Zigwheels_com() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'popularModelsTestUsingMinMax')
+data.setCell(0, 2, 'TestCases.PopularModelsInChennai')
+data.setCell(0, 3, 104414);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'upcomingHondaBikesTest')
+data.setCell(1, 2, 'TestCases.UpcomingHondaBikes')
+data.setCell(1, 3, 74732);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'popularModelsTestUsingRadioButton')
+data.setCell(2, 2, 'TestCases.PopularModelsInChennai')
+data.setCell(2, 3, 65401);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'v_phn_inv_pswd')
+data.setCell(3, 2, 'TestCases.InvalidLoginTest')
+data.setCell(3, 3, 64366);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'v_mail_inv_pswd')
+data.setCell(4, 2, 'TestCases.InvalidLoginTest')
+data.setCell(4, 3, 62339);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'popularModelsTestUsingMinMax')
+data.setCell(5, 2, 'TestCases.PopularModelsInChennai')
+data.setCell(5, 3, 55676);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'invalidmail')
+data.setCell(6, 2, 'TestCases.InvalidLoginTest')
+data.setCell(6, 3, 34179);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'upcomingHondaBikesTest')
+data.setCell(7, 2, 'TestCases.UpcomingHondaBikes')
+data.setCell(7, 3, 33369);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'popularModelsTestUsingRadioButton')
+data.setCell(8, 2, 'TestCases.PopularModelsInChennai')
+data.setCell(8, 3, 28073);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'profile_btn_and_google')
+data.setCell(9, 2, 'TestCases.InvalidLoginTest')
+data.setCell(9, 3, 13249);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'invalidphn')
+data.setCell(10, 2, 'TestCases.InvalidLoginTest')
+data.setCell(10, 3, 12386);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'nullmail')
+data.setCell(11, 2, 'TestCases.InvalidLoginTest')
+data.setCell(11, 3, 12337);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'profile_btn_and_google')
+data.setCell(12, 2, 'TestCases.InvalidLoginTest')
+data.setCell(12, 3, 10722);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'invalidmail')
+data.setCell(13, 2, 'TestCases.InvalidLoginTest')
+data.setCell(13, 3, 9457);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'v_mail_null_pswd')
+data.setCell(14, 2, 'TestCases.InvalidLoginTest')
+data.setCell(14, 3, 2081);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'invalidphn')
+data.setCell(15, 2, 'TestCases.InvalidLoginTest')
+data.setCell(15, 3, 2062);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'v_mail_null_pswd')
+data.setCell(16, 2, 'TestCases.InvalidLoginTest')
+data.setCell(16, 3, 2021);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'v_mail_inv_pswd')
+data.setCell(17, 2, 'TestCases.InvalidLoginTest')
+data.setCell(17, 3, 48);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'v_phn_inv_pswd')
+data.setCell(18, 2, 'TestCases.InvalidLoginTest')
+data.setCell(18, 3, 42);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'nullmail')
+data.setCell(19, 2, 'TestCases.InvalidLoginTest')
+data.setCell(19, 3, 6);
+window.suiteTableData['Hackathon_Zigwheels_com']= { tableData: data, tableDiv: 'times-div-Hackathon_Zigwheels_com'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 minutes</span>
+              <div id="times-div-Hackathon_Zigwheels_com">
+              </div> <!-- times-div-Hackathon_Zigwheels_com -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Hackathon_Zigwheels_com" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Hackathon Zigwheels.com</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Hackathon_Zigwheels_com" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.PopularModelsInChennai</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">popularModelsTestSmoke</span>
+                <br/>
+                <span class="ignored-method-name">popularModelsTestSmoke</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.UpcomingHondaBikes</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">upcomingHondaBikesTestSmoke</span>
+                <br/>
+                <span class="ignored-method-name">upcomingHondaBikesTestSmoke</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Hackathon_Zigwheels_com" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.UpcomingHondaBikes</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">upcomingHondaBikesTest(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">33399 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.PopularModelsInChennai</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">popularModelsTestUsingMinMax(Chrome)</span>
+                <span class="method-start">34668 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">popularModelsTestUsingRadioButton(Chrome)</span>
+                <span class="method-start">90372 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">118451 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.InvalidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">BeforeTest(Chrome)</span>
+                <span class="method-start">119660 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">profile_btn_and_google</span>
+                <span class="method-start">129922 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">invalidmail</span>
+                <span class="method-start">140645 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">nullmail</span>
+                <span class="method-start">174827 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">invalidphn</span>
+                <span class="method-start">174836 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">v_mail_inv_pswd</span>
+                <span class="method-start">176899 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">v_phn_inv_pswd</span>
+                <span class="method-start">176949 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">v_mail_null_pswd</span>
+                <span class="method-start">176992 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">179014 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.UpcomingHondaBikes</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">upcomingHondaBikesTest(Mozila)</span>
+                <span class="method-start">179588 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">254322 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.PopularModelsInChennai</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">popularModelsTestUsingMinMax(Mozila)</span>
+                <span class="method-start">257459 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">popularModelsTestUsingRadioButton(Mozila)</span>
+                <span class="method-start">361879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">427282 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.InvalidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">BeforeTest(Mozila)</span>
+                <span class="method-start">430099 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">profile_btn_and_google</span>
+                <span class="method-start">494323 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidmail</span>
+                <span class="method-start">507573 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">nullmail</span>
+                <span class="method-start">517031 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidphn</span>
+                <span class="method-start">529369 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">v_mail_inv_pswd</span>
+                <span class="method-start">541756 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">v_phn_inv_pswd</span>
+                <span class="method-start">604096 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">v_mail_null_pswd</span>
+                <span class="method-start">668463 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">670547 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">671196 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Hackathon Zigwheels.com]">
+  <test thread-count="1" name="Popular Models in Used Cars In Chennai(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <groups>
+      <run>
+        <include name="regressionTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestCases.PopularModelsInChennai">
+        <methods>
+          <include name="popularModelsTestUsingMinMax" invocation-numbers="0"/>
+          <include name="popularModelsTestUsingRadioButton" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="flushReports"/>
+        </methods>
+      </class> <!-- TestCases.PopularModelsInChennai -->
+    </classes>
+  </test> <!-- Popular Models in Used Cars In Chennai(failed) -->
+  <test thread-count="1" name="Invalid Google Login Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <groups>
+      <run>
+        <include name="regressionTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestCases.InvalidLoginTest">
+        <methods>
+          <include name="v_mail_inv_pswd"/>
+          <include name="v_phn_inv_pswd"/>
+          <include name="BeforeTest"/>
+          <include name="nullmail"/>
+          <include name="v_mail_null_pswd"/>
+          <include name="closeBrowser"/>
+          <include name="invalidmail"/>
+          <include name="flushReports"/>
+          <include name="invalidphn"/>
+        </methods>
+      </class> <!-- TestCases.InvalidLoginTest -->
+    </classes>
+  </test> <!-- Invalid Google Login Test(failed) -->
+  <test thread-count="1" name="Popular Models in Used Cars In Chennai Mozila(failed)">
+    <parameter name="browser" value="Mozila"/>
+    <groups>
+      <run>
+        <include name="regressionTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestCases.PopularModelsInChennai">
+        <methods>
+          <include name="popularModelsTestUsingMinMax" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="flushReports"/>
+        </methods>
+      </class> <!-- TestCases.PopularModelsInChennai -->
+    </classes>
+  </test> <!-- Popular Models in Used Cars In Chennai Mozila(failed) -->
+  <test thread-count="1" name="Invalid Google Login Test Mozila(failed)">
+    <parameter name="browser" value="Mozila"/>
+    <groups>
+      <run>
+        <include name="regressionTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestCases.InvalidLoginTest">
+        <methods>
+          <include name="v_mail_inv_pswd"/>
+          <include name="v_phn_inv_pswd"/>
+          <include name="BeforeTest"/>
+          <include name="v_mail_null_pswd"/>
+          <include name="closeBrowser"/>
+          <include name="flushReports"/>
+        </methods>
+      </class> <!-- TestCases.InvalidLoginTest -->
+    </classes>
+  </test> <!-- Invalid Google Login Test Mozila(failed) -->
+</suite> <!-- Failed suite [Hackathon Zigwheels.com] -->

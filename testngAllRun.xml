@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="Hackathon Zigwheels.com"
+	annotations="JDK">
+	<!-- parallel="tests"> -->
+	<test name="Upcoming Honda Bikes">
+		<parameter name="browser" value="Chrome"></parameter>
+		<groups>
+			<run>
+				<include name="regressionTest"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestCases.UpcomingHondaBikes"></class>
+		</classes>
+	</test>
+	<test name="Popular Models in Used Cars In Chennai">
+		<parameter name="browser" value="Chrome"></parameter>
+		<groups>
+			<run>
+				<include name="regressionTest"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestCases.PopularModelsInChennai"></class>
+		</classes>
+	</test>
+	<test name="Invalid Google Login Test">
+		<parameter name="browser" value="Chrome"></parameter>
+		<groups>
+			<run>
+				<include name="regressionTest"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestCases.InvalidLoginTest"></class>
+		</classes>
+	</test>
+	<test name="Upcoming Honda Bikes Mozila">
+		<parameter name="browser" value="Mozila"></parameter>
+		<groups>
+			<run>
+				<include name="regressionTest"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestCases.UpcomingHondaBikes"></class>
+		</classes>
+	</test>
+	<test name="Popular Models in Used Cars In Chennai Mozila">
+		<parameter name="browser" value="Mozila"></parameter>
+		<groups>
+			<run>
+				<include name="regressionTest"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestCases.PopularModelsInChennai"></class>
+		</classes>
+	</test>
+	<test name="Invalid Google Login Test Mozila">
+		<parameter name="browser" value="Mozila"></parameter>
+		<groups>
+			<run>
+				<include name="regressionTest"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestCases.InvalidLoginTest"></class>
+		</classes>
+	</test>
+</suite>
